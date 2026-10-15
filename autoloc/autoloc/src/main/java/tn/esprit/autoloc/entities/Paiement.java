@@ -20,5 +20,5 @@ public class Paiement {
     private ModePaiement modePaiement;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    private Contrat contrat; 
+    private Contrat contrat;
 }
